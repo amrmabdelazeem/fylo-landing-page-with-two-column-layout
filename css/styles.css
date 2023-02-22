@@ -1,0 +1,225 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700; 
+    font-size: 1rem;
+    text-align: center;
+
+}
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding-right: 3rem;
+    line-height:1.5;
+}
+
+/* Navbar */
+.navbar-brand img{
+    width: 5rem;
+}
+
+
+.title-items a{
+    font-size: .8rem;
+}
+
+
+/* Title */
+.top-section{
+    margin: .4rem .8rem 0;
+}
+.right-side{
+    margin-bottom: 24%;
+}
+
+.image-container .illustration{
+    width: 18.9rem;
+    margin-right:7%;
+    margin-bottom: 2.8rem;
+}
+
+
+
+.heading p{
+    font-size: .9rem;
+    padding:.7rem 2rem 1rem 0;
+}
+
+.heading .email-area{
+    width: 19rem;
+    margin-left: 1.5rem;
+    opacity: .5;
+    font-size: .8rem;
+    padding-left: 1.4rem;
+
+}
+
+.heading .reg-button{
+    margin-top: 1.3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+/* Testimonials */
+
+.testimonials{
+    margin-top: 28%;
+}
+
+.image-container .illustration2{
+    width: 18.9rem;
+    margin-left: 2rem;
+    margin-top: 5.3rem;
+    margin-bottom: 6rem;
+}
+
+.image-container .background{
+    padding: 0;
+
+}
+
+.image-container .logo{
+    width:5%;
+    
+}
+
+.paragraph h2{
+    margin-bottom: 2rem;
+
+}
+.paragraph p{
+    font-size: .9rem;
+    padding: 0 1rem 0 0;
+    line-height: 1.4;
+    text-align: left;
+}
+
+.paragraph p:nth-child(3){
+    margin-bottom: 2rem;
+}
+
+.paragraph a{
+    text-decoration: none;
+    font-size: .8rem;
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+    color: hsl(170, 45%, 43%);
+    padding-bottom: .4rem;
+}
+
+.paragraph .quote{
+    margin-top: 3rem;
+}
+
+/* Card Area */
+
+.quote{
+    margin-bottom: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-top: 1rem;
+    padding-left: 1.3rem;
+}
+.quote .fylo-p{
+    font-size: .7rem;
+    line-height: 2;
+    margin-bottom: 0;
+}
+
+.image-container .avatar{
+    width: 1.5rem;
+    border-radius: 50%;
+    /* margin-top: .5rem;
+    margin-bottom: 1rem; */
+}
+
+.card-av{
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+
+.card-av .card-heading{
+    margin-bottom: 0;
+    text-align: left;
+    font-size: .8rem;
+    margin-left: .5rem;
+}
+.card-av .card-p{
+    margin-bottom: 0;
+    margin-left: .5rem;
+    font-size: .5rem;
+    font-weight: 400;
+}
+
+/* Blue Area */
+
+.early-access{
+    background-color:hsl(238, 22%, 44%) ;
+    color: #fff;
+    padding: 3rem 0;
+    padding-bottom: 5rem;
+}
+.early-access h2{
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.early-access p{
+    font-size: .9rem;
+    padding-right: 2.1rem;
+    padding-left: 1.8rem;
+}
+
+.early-access .email-area{
+    width: 19rem;
+    margin-left: 1.5rem;
+    font-size: .8rem;
+}
+
+.early-access .reg-button{
+    margin-top: .5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.last{
+    background-color:hsl(243, 87%, 12%) ;
+    color: aliceblue;
+    padding: 3.4rem 0;
+    padding-left: 2rem;
+}
+
+.last-pa p{
+    padding-left: .5rem;
+}
+
+.last-pas{
+    margin-bottom: 2.5rem;
+}
+
+.last .icons{
+    width: 1rem;
+}
+
+.last-m{
+    margin-top: 1.4rem;
+}
+
+
+.last .footer-logo{
+    margin-bottom: 2.5rem;
+
+}
+i{
+    border: 1px solid #fff;
+    padding: .5rem;
+    border-radius: 50%;
+
+}
