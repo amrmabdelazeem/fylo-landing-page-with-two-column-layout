@@ -58,13 +58,23 @@ h1 {
     opacity: .5;
     font-size: .8rem;
     padding-left: 1.4rem;
+    border: 1px solid #000;
 
 }
 
 .heading .reg-button{
-    margin-top: 1.3rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    /* padding-left: 1.5rem;
+    padding-right: 1.5rem; */
+
+}
+
+.heading button{
+    width: 19rem;
+    font-size: .8rem;
+    padding: .2rem 6rem;
+    border: none;
+    background-color: hsl(224, 93%, 58%);
+    color: #fff;
 }
 
 /* Testimonials */
@@ -222,4 +232,26 @@ i{
     padding: .5rem;
     border-radius: 50%;
 
+}
+
+
+@media screen and (min-width:376px) and (max-width:1440px) {
+    .navbar-brand img{
+        width: 100%;
+    }
+
+    .top-section .right-side{
+        margin: 3.2rem 4rem 5rem;
+    }
+
+    ul > li{
+        font-size: 1.1rem;
+    }
+    .items{
+        margin-left: 2.4rem;
+    }
+
+    .title-section{
+        flex-direction: row-reverse;
+    }
 }

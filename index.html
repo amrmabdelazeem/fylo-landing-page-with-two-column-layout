@@ -34,11 +34,23 @@
   <section id="title"class="" >
     <div class="container-fluid top-section ms-auto" >
       <!--Navbar-->
+
       <nav class="navbar navbar-expand right-side">
         <a href="#" class="navbar-brand">
           <img src="images/logo.svg" alt="logo">
         </a>
-        <ul class="navbar-nav ms-5 title-items" >
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item items">
+            <a class="nav-link" href="#">Team</a>
+          </li>
+          <li class="nav-item items">
+            <a class="nav-link" href="#">Sign In</a>
+          </li>
+        </ul>
+        <!-- <ul class="navbar-nav ms-5 justify-content-between title-items" >
           <li class="nav-item">
             <a href="#" class="nav-link ps-3">Features</a>
           </li>
@@ -48,9 +60,9 @@
           <li class="nav-item">
             <a href="#" class="nav-link ps-3">Sign In</a>
           </li>
-        </ul>
+        </ul> -->
       </nav>
-      <div class="row image-container">
+      <div class="row image-container title-section">
         <div class="col-lg-6 ">
           <img src="images/illustration-1.svg" alt="illustration-1" class="illustration">
         </div>
@@ -60,11 +72,16 @@
             Access them wherever you need, share and collaborate with friends, 
             family, and co-workers.
           </p>
-          <form action="" class="form-section">
-            <input type="email" class="form-control email-area" placeholder="Enter your email...">
-          </form>
-          <div class="d-grid reg-button">
-            <button type="submit" class="btn btn-primary btn-md">Get Started</button>
+          <div class="gap-2 row container-fluid ms-auto">
+            <div class="col-6 col-lg-8">
+              <input type="email" class="email-area"
+              placeholder="Enter your email...">
+            </div>
+            <div class="col-6 col-lg-2 reg-button">
+              <button>
+                Get Started
+              </button>
+            </div>
           </div>
         </div>
       </div>
