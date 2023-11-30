@@ -102,7 +102,7 @@ h1{
 
 #middle{
     background-color: var(--lightGrayishBlue);
-    
+    text-align: center;
     padding-top: 1.5rem;
 }
 
@@ -114,7 +114,6 @@ h2{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 1rem;
-    text-align: center;
     margin-bottom: 1.5rem;
 }
 
@@ -123,5 +122,15 @@ p{
     font-size: .8rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    text-align: left;
+}
 
+.mid-content a{
+    font-family: 'Raleway', sans-serif;
+    font-family: 700;
+    text-decoration: none;
+    color: var(--moderateCyan);
+    border-bottom: 2px solid var(--moderateCyan);
+    padding-bottom: 3px;
+    font-size: .7rem;
 }
