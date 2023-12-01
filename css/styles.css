@@ -107,6 +107,7 @@ h1{
     background-color: var(--lightGrayishBlue);
     text-align: center;
     padding-top: 1.5rem;
+    padding-bottom: 2rem;
 }
 
 .mid-image .hero-img {
