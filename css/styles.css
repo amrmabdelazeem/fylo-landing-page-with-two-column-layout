@@ -12,6 +12,10 @@
 *{
     box-sizing: border-box;
 }
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -58,7 +62,6 @@ h1{
 .content p{
     text-align: center;
     padding: 0 2.5rem;
-    font-family: 'Open Sans', sans-serif;
     font-size: .8rem;
     margin-bottom: 1.5rem;
 }
@@ -118,7 +121,6 @@ h2{
 }
 
 p{
-    font-family: 'Open Sans', sans-serif;
     font-size: .8rem;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -133,4 +135,46 @@ p{
     border-bottom: 2px solid var(--moderateCyan);
     padding-bottom: 3px;
     font-size: .7rem;
+}
+
+.quote{
+    background-color: #fff;
+    margin: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 20px var(--lightGray);
+    text-align: left;
+    padding: 1rem 1.5rem;
+}
+
+.quote p{
+    padding: 0;
+    font-size: .6rem;
+    
+}
+.testimonial{
+    display: flex;
+    align-items: flex-start;
+    
+}
+
+.testimonial img{
+    width: 1.5rem;
+    border-radius: 50%;
+    margin-right: .5rem;
+}
+
+.avatar-id{
+
+}
+.testimonial h3{
+    font-size: .7rem;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.testimonial p{
+    font-size: .5rem;
+    padding: 0;
+    margin: 0;
 }
