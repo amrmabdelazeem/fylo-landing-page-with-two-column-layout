@@ -220,3 +220,18 @@ h1{
     font-weight: 700;
     margin-bottom: 3rem;
 }
+
+footer{
+    background-color: var(--veryDarkBlue);
+    padding-top: 3rem;
+    color:var(--lightGray);
+    padding-left: 2rem;
+    font-size: .7rem;
+}
+
+.links a{
+    display: block;
+    text-decoration: none;
+    color: var(--lightGray);
+    margin-bottom: .7rem;
+}
