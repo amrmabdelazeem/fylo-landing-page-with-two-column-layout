@@ -122,7 +122,7 @@ h1{
     margin-bottom: 1.5rem;
 }
 
-p{
+.mid-content p{
     font-size: .8rem;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -182,12 +182,41 @@ p{
 
 .early-access{
     background-color: var(--desaturatedBlue);
+    color: #fff;
+    text-align: center;
     padding-top: 3rem;
 }
 
 .early-access h2{
-    color: #fff;
     font-size: 1rem;
-    text-align: center;
     font-weight: 700;
+}
+
+.early-access p{
+    font-size: .7rem;
+    padding: .5rem 3.3rem;
+}
+.early-access input{
+    width: 65%;
+    height: 2rem;
+    font-size: 10px;
+    text-indent: .2rem;
+    margin-bottom: .3rem;
+}
+.early-access input::placeholder{
+    opacity: .3;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.early-access button{
+    width: 65%;
+    height: 2rem;
+    background-color: var(--brightBlue);
+    color: var(--lightGrayishBlue);
+    font-size: 10px;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-bottom: 3rem;
 }
