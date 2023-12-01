@@ -227,11 +227,38 @@ footer{
     color:var(--lightGray);
     padding-left: 2rem;
     font-size: .7rem;
+    padding-bottom: 3rem;
 }
 
-.links a{
+footer a{
     display: block;
     text-decoration: none;
     color: var(--lightGray);
     margin-bottom: .7rem;
+}
+
+.links{
+    margin-bottom: 2rem;
+}
+
+.terms{
+    margin-bottom: 2rem;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons i{
+    border: 1px solid #fff;
+    width: 20px;
+    height: 20px;
+    padding: .3.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: .5rem;
 }
