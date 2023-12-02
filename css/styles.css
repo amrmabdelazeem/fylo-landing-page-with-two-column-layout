@@ -166,9 +166,6 @@ h1{
     margin-right: .5rem;
 }
 
-.avatar-id{
-
-}
 .testimonial h3{
     font-size: .7rem;
     font-weight: 700;
@@ -341,8 +338,49 @@ footer a{
     .curve{
         background-image: url("../images/bg-curve-desktop.svg");
         background-repeat: no-repeat;
+        background-size: cover;
+        height: 6rem;
     }
     #middle{
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 5rem;
+    }
+    .mid-image .hero-img {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    .mid-content{
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        text-align: left;
+        padding-left: 4rem;
+    }
+    .mid-content h2{
+        font-size: 2.7rem;
+    }
+    .mid-content p{
+        padding-left: 0;
+        padding-right: 10rem;
+        font-size: 1.1rem;
+    }
+    .mid-content a{
+        font-size: 1rem;
+    }
+    .quote{
+        margin-left: 0;
+        width: 50%;
+        padding-left: 2rem;
+        margin-bottom: 4rem;
+        padding-bottom: 1.5rem;
+    }
 
+    .quote p{
+        font-size: .9rem;
+        padding-right: 1rem;
+    }
+    .testimonial p{
+        font-size: .6rem;
     }
 }
