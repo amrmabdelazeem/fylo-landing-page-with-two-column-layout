@@ -223,13 +223,26 @@ h1{
 
 footer{
     background-color: var(--veryDarkBlue);
-    padding-top: 3rem;
+    padding-top: 2rem;
     color:var(--lightGray);
     padding-left: 2rem;
     font-size: .7rem;
     padding-bottom: 3rem;
 }
 
+footer svg{
+    width: 8rem;
+    margin-bottom: 1.5rem;
+}
+
+.contacts{
+    margin-bottom: 2.5rem;
+}
+
+.contacts img{
+    width: .8rem;
+    margin-right: .7rem;
+}
 footer a{
     display: block;
     text-decoration: none;
@@ -253,9 +266,8 @@ footer a{
 
 .icons i{
     border: 1px solid #fff;
-    width: 20px;
-    height: 20px;
-    padding: .3.5rem;
+    width: 17px;
+    height: 17px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
