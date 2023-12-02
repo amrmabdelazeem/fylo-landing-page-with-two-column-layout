@@ -383,4 +383,40 @@ footer a{
     .testimonial p{
         font-size: .6rem;
     }
+    .early-access{
+        display: grid;
+        grid-template: 1fr / 1fr 1fr;
+        padding-left: 4rem;
+        padding-bottom: 3rem;
+        text-align: left;
+
+    }
+    .early-access h2{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    .early-access p{
+        padding: 0;
+        width: 67%;
+        font-size: .9rem;
+        font-weight: 400;
+    }
+    .early-subscribe{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .early-access input{
+        width: 60%;
+        height: 2.5rem;
+        text-indent: 1rem;
+        font-size: .8rem;
+    }
+    .early-access button{
+        margin: 0;
+        height: 2.5rem;
+        width: 30%;
+        font-size: 1rem;
+    }
+
 }
