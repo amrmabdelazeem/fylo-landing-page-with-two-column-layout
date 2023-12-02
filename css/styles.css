@@ -277,3 +277,10 @@ footer a{
     align-items: center;
     
 }
+
+
+@media (min-width:1440px){
+    nav{
+        padding: 3rem;
+    }
+}
