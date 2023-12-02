@@ -224,7 +224,7 @@ h1{
 footer{
     background-color: var(--veryDarkBlue);
     padding-top: 2rem;
-    color:var(--lightGray);
+    color:#fff;
     padding-left: 2rem;
     font-size: .7rem;
     padding-bottom: 3rem;
@@ -246,7 +246,7 @@ footer svg{
 footer a{
     display: block;
     text-decoration: none;
-    color: var(--lightGray);
+    color: #fff;
     margin-bottom: .7rem;
 }
 
@@ -265,12 +265,15 @@ footer a{
 }
 
 .icons i{
-    border: 1px solid #fff;
+    color: #fff;
+    border: 1px solid var(--lightGray);
     width: 17px;
     height: 17px;
     border-radius: 50%;
+    padding: .5rem .3rem;
+    margin-right: .5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: .5rem;
+    
 }
