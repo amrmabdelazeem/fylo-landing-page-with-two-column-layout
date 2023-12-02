@@ -368,6 +368,10 @@ footer a{
     .mid-content a{
         font-size: 1rem;
     }
+    .mid-content a:hover{
+        opacity: .5;
+        color: var(--moderateCyan);
+    }
     .quote{
         margin-left: 0;
         width: 50%;
@@ -445,5 +449,18 @@ footer a{
     .links, .terms{
         text-align: center;
         margin-bottom: 0;
+    }
+    a:hover{
+        cursor: pointer;
+        color: var(--brightBlue);
+    }
+    button:hover{
+        filter: brightness(150%);
+    }
+    input:invalid{
+        border: 1px solid red;
+    }
+    input:focus{
+        outline: none;
     }
 }
