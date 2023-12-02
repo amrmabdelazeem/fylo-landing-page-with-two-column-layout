@@ -25,7 +25,7 @@ nav{
     justify-content: space-between;
     padding: 1.2rem;
     align-items: center;
-    margin-bottom: 120px;
+    margin-bottom: 3rem;
 }
 
 .logo img{
@@ -35,14 +35,11 @@ nav{
 .navigation a{
     margin-left: 1rem;
     text-decoration: none;
-    color: #000;
+    color: var(--desaturatedBlue);
     font-size: 12px;
+    
 }
 
-.get-started{
-
-
-}
 
 .hero-image{
     background-image: url("../images/illustration-1.svg");
@@ -56,9 +53,10 @@ nav{
 h1{
     text-align: center;
     font-size: 1.5rem;
-    line-height: 1.6;
+    line-height: 1.4;
     font-weight: 700;
     padding: 0 1rem;
+    margin-bottom: 1rem;
 }
 
 .content p{
@@ -66,12 +64,13 @@ h1{
     padding: 0 2.5rem;
     font-size: .8rem;
     margin-bottom: 1.5rem;
+    
 }
 
 .subscribe{
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: .7rem;
     justify-content: center;
     align-items: center;
 }
@@ -81,7 +80,7 @@ h1{
     border-radius: 4px;
     font-size: 10px;
     text-indent: 1rem;
-    border: 2px solid var(--lightGray);
+    border: 1px solid #000;
 }
 .subscribe input::placeholder{
     opacity: .3;
@@ -114,6 +113,7 @@ h1{
 
 .mid-image .hero-img {
     width: 70%;
+    margin-bottom: 3rem;
 }
 
 .mid-content h2{
