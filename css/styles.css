@@ -278,15 +278,6 @@ footer a{
     
 }
 
-input:invalid + #error1::after{
-    content: 'Please check your email';
-    color: red;
-    font-size: .6rem;
-    position: absolute;
-    top: 2rem;
-    left: 2.4rem;
-}
-
 @media (min-width:1440px){
     nav{
         padding: 3rem;
