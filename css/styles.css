@@ -323,6 +323,7 @@ footer a{
         align-items: flex-start;
         justify-content: start;
         flex-direction: row;
+        position: relative;
     }
     .subscribe input{
         width: 50%;
@@ -408,7 +409,8 @@ footer a{
     .early-subscribe{
         display: flex;
         flex-direction: column;
-        gap: 0.5rem;
+        gap: 1rem;
+        position: relative;
     }
     .early-access input{
         width: 60%;
@@ -462,5 +464,23 @@ footer a{
     }
     input:focus{
         outline: none;
+    }
+    #error1{
+        position: absolute;
+        top: 2.6rem;
+    }
+    #error2{
+        position: absolute;
+        top: 2.3rem;
+    }
+
+    input:invalid + #error1::after{
+        content: 'Please check your email';
+        color: red;
+    }
+    input:invalid + #error2::before{
+        content: 'Please check your email';
+        color: #fff;
+        font-size: .8rem;
     }
 }
