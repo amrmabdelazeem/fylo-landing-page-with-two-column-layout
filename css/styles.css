@@ -484,11 +484,11 @@ footer a{
     }
 
     input:invalid + #error1::after{
-        content: 'Please check your email';
+        content: "Please check your email";
         color: red;
     }
     input:invalid + #error2::before{
-        content: 'Please check your email';
+        content: "Please check your email";
         color: #fff;
         font-size: .8rem;
     }
