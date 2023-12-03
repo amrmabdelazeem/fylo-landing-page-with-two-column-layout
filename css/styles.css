@@ -466,6 +466,7 @@ input:invalid + #error1::after{
         color: var(--brightBlue);
     }
     button:hover{
+        cursor: pointer;
         filter: brightness(150%);
     }
     input:invalid{
