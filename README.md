@@ -28,7 +28,7 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 
 ### Screenshot
-- Mobile viw (375px)
+- Mobile viw (375px)<br/>
 ![mobile](screenshots/mobile.png)
 ---
 - Laptop view (1440px)
