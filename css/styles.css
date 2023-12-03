@@ -70,7 +70,7 @@ h1{
 .subscribe{
     display: flex;
     flex-direction: column;
-    gap: .7rem;
+    gap: .5rem;
     justify-content: center;
     align-items: center;
     position: relative;
