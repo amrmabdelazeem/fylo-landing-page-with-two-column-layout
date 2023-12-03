@@ -492,4 +492,9 @@ input:invalid + #error1::after{
         color: #fff;
         font-size: .8rem;
     }
+    .icons i:hover{
+        cursor: pointer;
+        color: var(--brightBlue) !important;
+        border-color: var(--brightBlue);
+    }
 }
